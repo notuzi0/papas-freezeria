@@ -17,6 +17,7 @@
         }
 
         ruffle-player {
+            display: block;
             width: 100vw;
             height: 100vh;
         }
@@ -32,7 +33,8 @@
 
         player.config = {
             autoplay: "on",
-            unmuteOverlay: "hidden"
+            unmuteOverlay: "hidden",
+            publicPath: "./"
         };
 
         player.load("freezeria.swf");
